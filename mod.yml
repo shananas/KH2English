@@ -1,0 +1,56 @@
+title: Kingdom Hearts 2 English
+originalAuthor: Shananas
+game: kh2
+description: Makes KH2FM as close to KH2 Enlgish as I am able. Still a WIP
+assets:
+- name: 00battle.bin
+  method: binarc
+  source:
+  - name: atkp
+    method: copy
+    source:
+    - name: 00battle.bin/enatkp_0.list
+    type: List
+  - name: bons
+    method: copy
+    source:
+    - name: 00battle.bin/enbons_0.list
+    type: List
+  - name: enmp
+    method: copy
+    source:
+    - name: 00battle.bin/enenmp_0.list
+    type: List
+  - name: fmlv
+    method: copy
+    source:
+    - name: 00battle.bin/enfmlv_0.list
+    type: List
+  - name: lvpm
+    method: copy
+    source:
+    - name: 00battle.bin/enlvpm_0.list
+    type: List
+  - name: lvup
+    method: copy
+    source:
+    - name: 00battle.bin/enlvup_0.list
+    type: List
+- name: 03system.bin
+  method: binarc
+  source:
+  - name: item
+    method: copy
+    source:
+    - name: 03System.bin/enitem_0.list
+    type: List
+  - name: trsr
+    method: copy
+    source:
+    - name: 03System.bin/entrsr_0.list
+    type: List
+  - name: pref
+    method: copy
+    source:
+    - name: 03System.bin/enpref_0.bin
+    type: Binary
